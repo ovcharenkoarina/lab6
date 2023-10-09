@@ -1,7 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik',  serif, sans-serif;
+  font-weight: 400;
+  background-color: #000000;
+  color: white;
+
+}
+
+h1{
+  font-weight: 800;
+  color: #FF9900;
+}
+
+.table-header {
+  font-weight: 600;
+  color: #FF9900;
+}
+
 td, th {
 	border: 1px solid;
-  }
+}
 
-  body {
-    background-image: url('images/background.png');
-    }
