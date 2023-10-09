@@ -5,13 +5,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Planets</title>
 </head>
+
 <body>
   <h1>Planets</h1>
-
+  <div>
+    <img class="floating-image" id= "cat-image" src="images/cat.png" alt="flying orange cat">
+    <img class="floating-image" id= "astronaut-image" src="images/astronaut.png" alt="flying astronaut">
+  </div>
   <table id="planets">
     <tr>
       <th class="table-coloumn-header">Name</th>
@@ -22,59 +26,65 @@
     </tr>
     <tr>
       <td class="table-row-header">Planet image</td>
-      <td class="table-row-header"><img src="images/earth.png" alt="Earth"></td>
-      <td class="table-row-header"><img src="images/jupiter.png" alt="Jupiter"></td>
-      <td class="table-row-header"><img src="images/mercury.png" alt="Mercury"></td>
-      <td class="table-row-header"><img src="images/neptune.png" alt="Neptune"></td>
+      <td><img src="images/earth.png" alt="Earth"></td>
+      <td><img src="images/jupiter.png" alt="Jupiter"></td>
+      <td><img src="images/mercury.png" alt="Mercury"></td>
+      <td><img src="images/neptune.png" alt="Neptune"></td>
     </tr>
     <tr>
-      <td>Mass (10<sup>24</sup>kg)</td>
+      <td class="table-row-header">Mass (10<sup>24</sup>kg)</td>
       <td>5.97</td>
       <td>1898</td>
       <td>0,330</td>
       <td>102</td>
     </tr>
     <tr>
-      <td>Diameter (km)</td>
+      <td class="table-row-header">Diameter (km)</td>
       <td>12,756</td>
       <td>142,984</td>
       <td>4879</td>
       <td>49,528</td>
     </tr>
     <tr>
-      <td>Density (kg/m<sup>3</sup>)</td>
+      <td  class="table-row-header">Density (kg/m<sup>3</sup>)</td>
       <td>5514</td>
       <td>1326</td>
       <td>5429</td>
       <td>1636</td>
     </tr>
     <tr>
-      <td>Gravity (m/s<sup>2</sup>)</td>
+      <td class="table-row-header">Gravity (m/s<sup>2</sup>)</td>
       <td>9,8</td>
       <td>23,1</td>
       <td>3,7</td>
       <td>11</td>
     </tr>
     <tr>
-      <td>Escape Velocity (km/s)</td>
+      <td class="table-row-header">Escape Velocity (km/s)</td>
       <td>11.2</td>
       <td>59,5</td>
       <td>4,3</td>
       <td>23,5</td>
     </tr>
     <tr>
-      <td>Rotation Period (hours)</td>
+      <td class="table-row-header">Rotation Period (hours)</td>
       <td>23.9</td>
       <td>9,9</td>
       <td>1407,6</td>
       <td>16,1</td>
     </tr>
     <tr>
-      <td>Ring System?</td>
+      <td class="table-row-header">Ring System?</td>
       <td>No</td>
       <td>Yes</td>
       <td>No</td>
       <td>Yes</td>
     </tr>
   </table>
+  <div>
+    <img class="floating-image" id= "alien-image" src="images/alien.png" alt="green cat-looking alien">
+    <img class="floating-image" id= "ufo-image" src="images/ufo.png" alt="white ufo">
+  </div>
 </body>
+
+</html>
