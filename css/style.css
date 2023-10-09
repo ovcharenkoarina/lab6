@@ -3,6 +3,10 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -11,21 +15,50 @@ body {
   background-color: #092536;
   color: white;
   background-repeat: no-repeat;
-
 }
 
-h1{
+h1 {
   font-weight: 800;
   color: #FF9900;
   text-shadow: 2px 1px rgb(161, 138, 118);
+  text-align: center;
 }
 
-.table-coloumn-header, .table-row-header {
+.floating-image{
+  width: 150px;
+}
+
+#cat-image {
+  margin-right: 100px;
+}
+
+#astronaut-image {
+  width: 200px;
+}
+
+table {
+  table-layout: fixed;
+  width: 1000px;
+}
+
+td, th {
+	border: 2px solid  #FF9900;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-coloumn-header {
   font-weight: 600;
   color: #FF9900;
 }
 
-td, th {
-	border: 1px solid;
+.table-row-header{
+  font-weight: 600; 
+  color: white; 
+  padding: 10px;
 }
 
+#alien-image {
+  width: 60px;
+  margin-top: 50px;
+}
