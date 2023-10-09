@@ -8,17 +8,19 @@ body {
   justify-content: center;
   font-family: 'Rubik',  serif, sans-serif;
   font-weight: 400;
-  background-color: #000000;
+  background-color: #092536;
   color: white;
+  background-repeat: no-repeat;
 
 }
 
 h1{
   font-weight: 800;
   color: #FF9900;
+  text-shadow: 2px 1px rgb(161, 138, 118);
 }
 
-.table-header {
+.table-coloumn-header, .table-row-header {
   font-weight: 600;
   color: #FF9900;
 }
