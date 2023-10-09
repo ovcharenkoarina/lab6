@@ -24,7 +24,7 @@ h1 {
   text-align: center;
 }
 
-.floating-image{
+.floating-image {
   width: 150px;
 }
 
@@ -52,7 +52,7 @@ td, th {
   color: #FF9900;
 }
 
-.table-row-header{
+.table-row-header {
   font-weight: 600; 
   color: white; 
   padding: 10px;
